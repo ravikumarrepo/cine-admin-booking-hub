@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+        // Movie booking system colors
+        cinema: {
+          primary: '#9b87f5',
+          dark: '#1A1F2C',
+          secondary: '#7E69AB',
+          light: '#D6BCFA',
+          accent: '#F97316',
+        }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
